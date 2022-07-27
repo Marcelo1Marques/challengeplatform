@@ -1,0 +1,82 @@
+/*Text*/
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3);
+}
+
+.col-start-2 {
+    grid-column-start: 2;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-black {
+    color: black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/*Mobile*/
+
+    @media screen and (max-width: 425px) {
+        .sm-bg-blue {
+            background-color: #ACC8E5;
+        }
+    
+        .sm-text-brown {
+            color: #5B0606;
+        }
+}
+
+/*Tablette*/
+
+    @media screen and (min-width: 768px) {
+        .md-bg-violet {
+            background-color: #5D159B;
+        }
+        .md-text-turquoise {
+            color: #00FFF7;
+        }
+ }
+
+/*Desktop*/
+
+    @media screen and (min-width: 1024px) {
+        .lg-bg-green {
+            background-color: #169C39;
+        }
+        .lg-text-black {
+            color: #000000;
+        }    
+ }
+
+ /*4K*/
+
+ @media screen and (min-width: 2560px) {
+    .xl-bg-black {
+        background-color: #000000;
+    }
+    .xl-text-white {
+        color: #ffffff;
+    }    
+}
